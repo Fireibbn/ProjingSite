@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Camada_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 375 762.8" style="enable-background:new 0 0 375 762.8;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#XMLID_4_);fill:#10103D;}
+	.st1{clip-path:url(#XMLID_4_);}
+	.st2{fill:#10103D;}
+	.st3{fill:#241140;}
+	.st4{fill:#4D1446;}
+	.st5{fill:#611549;}
+	.st6{fill:#75164D;}
+	.st7{fill:#891750;}
+	.st8{fill:#9D1853;}
+	.st9{fill:#B21A56;}
+	.st10{fill:#C61B59;}
+	.st11{fill:#DA1C5C;}
+	.st12{fill:#D63472;}
+</style>
+<g>
+	<defs>
+		<rect id="XMLID_2_" width="375" height="762.8"/>
+	</defs>
+	<clipPath id="XMLID_4_">
+		<use xlink:href="#XMLID_2_"  style="overflow:visible;"/>
+	</clipPath>
+	<rect id="XMLID_3_" class="st0" width="375" height="812"/>
+	<g class="st1">
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -116.5007 38.4558)" class="st2" cx="255.8" cy="970.6" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -103.0442 35.9592)" class="st3" cx="242.1" cy="859.5" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -89.5877 33.4626)" class="st4" cx="228.5" cy="748.4" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -76.1312 30.966)" class="st4" cx="214.8" cy="637.2" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -62.6748 28.4694)" class="st5" cx="201.2" cy="526.1" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -49.2183 25.9728)" class="st6" cx="187.5" cy="414.9" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -35.7618 23.4762)" class="st7" cx="173.8" cy="303.8" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -22.3053 20.9796)" class="st8" cx="160.2" cy="192.6" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 -8.8488 18.483)" class="st9" cx="146.5" cy="81.5" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 4.6077 15.9864)" class="st10" cx="132.9" cy="-29.6" rx="284.5" ry="129.3"/>
+		
+			<ellipse transform="matrix(0.9925 -0.122 0.122 0.9925 18.0642 13.4897)" class="st11" cx="119.2" cy="-140.8" rx="284.5" ry="129.3"/>
+	</g>
+</g>
+<path class="st12" d="M0,423.3c0,0,157.5,68.3,374.6-47.8L375,0H0V423.3z"/>
+</svg>
