@@ -1,0 +1,2921 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&display=swap');
+
+
+
+
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family:'Montserrat', sans-serif;
+scroll-behavior: smooth;
+
+}
+
+
+
+#blackGraud
+
+    {
+        width: 100vw;
+        height: 100vh;
+        min-height: 100vh;
+        overflow-x: hidden;
+        background: black;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 30px 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 10000;
+        -webkit-font-smoothing: antialiased;
+       
+       
+    }
+    .Whitepage
+    {
+      background-color: rgb(241, 231, 231);
+    }
+
+    
+
+    #voltar
+    {
+    position: absolute;
+    width: 83px;
+    height: 78px;
+    left: 0px;
+    top: 13px;
+    z-index: 1;
+    }
+   
+    
+
+    .logoBlack
+    {
+        position: absolute;
+        width: 103px;
+        height: 46px;
+        right: 20px;
+        top: 40px;
+            
+        font-family: 'Montserrat';
+        font-style: italic;
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 49px;
+        
+        color: #080808;
+
+    }
+
+
+
+
+
+/*Home*/
+
+#menu
+
+{
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    left: 30px;
+    top: 40px;
+}
+
+
+#Homeback
+{   position:absolute;
+    width: 100%;
+    height:1220px;
+    left: 0px;
+    top: 0px;
+    
+
+}
+
+#Hometext1
+{
+    position: absolute;
+    width: 280px;
+    height: 36px;
+    left: 60px;
+    top: 145px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 37px;
+    text-transform: uppercase;
+    
+   
+}
+
+#Hometext2
+{
+position: absolute;
+width: 251px;
+height: 59px;
+left: 60px;
+top: 200px;
+
+font-family: 'montserrat' ;
+font-style: italic;
+font-weight: normal;
+font-size: 20px;
+line-height: 24px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+.HomeConteiner
+{
+  position: absolute;
+  left: 0px;
+  top: 300px;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 1000px;
+
+}
+
+
+
+
+.card1 {
+  position: absolute;
+  width: 295px;
+  height: 189px;
+  top: 0px;
+ 
+background-image: url(../img/home/Sobre.png);
+image-orientation: center;
+border-radius: 25px;
+box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card2 {
+  
+position: absolute;
+width: 295px;
+height: 189px;
+top: 220px;
+background-image: url(../img/home/Firecast.png);
+image-orientation: center;
+border-radius: 25px;
+box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card3 {
+  position: absolute;
+  width: 295px;
+  height: 189px;
+  top: 220px;
+  border-radius: 25px;
+  box-shadow: -6px 6px 1px rgba(0, 0, 0, 0.3);
+  background-image: url(../img/home/Devocinal.png);
+
+}
+.card4{
+    position: absolute;
+    width: 295px;
+    height: 189px;
+    top: 220px;
+  
+  background-image: url(../img/home/Mentoria.png);
+
+
+border-radius: 25px;
+box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.card5{
+    position: absolute;
+    width: 295px;
+    height: 189px;
+    top: 220px;
+  
+  background-image: url(../img/home/Teens.png);
+
+
+border-radius: 25px;
+box-shadow: -4px 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.link
+{
+    text-transform: none;
+    text-decoration-style: none;
+}
+
+
+
+.CardText h2
+{
+  position: absolute;
+  color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 37px;
+    text-transform: uppercase;
+  margin-top: 100px;
+  margin-left: 20px;
+  color: #fff;
+ 
+}
+.CardText p
+{
+  position: absolute;
+  color: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 25px;
+  margin-top: 130px;
+  margin-left: 20px;
+  color: #fff;
+
+}
+  
+
+/*Programação Fire*/
+
+.secProg{
+  position: absolute;
+  top :1850px;
+  left: 0px;
+  width:100vw;
+   height: 581px;
+}
+
+.Homeprogtitle
+
+{
+    position: absolute;
+    width: 282px;
+    height: 34px;
+    left: 70px;
+    top: 80px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
+
+
+
+#progback
+
+{
+    top: 0px;
+    position:relative;
+    width:100vw;
+    height: 581px;
+    left: 0px;
+   
+}
+
+
+
+#Homeprog2
+
+{
+
+position: absolute;
+width: 299px;
+height: 356px;
+left: 65px;
+top: 200px;
+
+    
+}
+
+
+/*Google maps Redirect*/
+
+
+
+
+
+
+#MapaEnd
+{
+    position: absolute;
+    width: 330px;
+    height: 50px;
+    left: 30px;
+    top: 2115px;
+    text-align: center;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25); 
+
+}
+
+.SecSocial{
+   top:2190px;
+    position:absolute;
+    width:100vw;
+    height: 581px;
+    left: 0px;
+}
+
+
+#Homesoci1 {
+
+position: relative;
+width: 100%;
+height: 319px;
+left: 0px;
+top:260px;
+    
+    
+}
+#Facebook
+
+{
+position: absolute;
+width: 64px;
+height: 64px;
+left: 34px;
+top: 500px;
+
+filter: drop-shadow(0px 12px 24px rgba(0, 0, 0, 0.1));
+  
+    
+
+}
+
+#Instagram
+
+{
+    position: absolute;
+    width:  64px;
+    height: 64px;
+    left: 100px;
+    top: 500px;
+    
+   
+
+}
+
+#Youtube
+
+{
+    position: absolute;
+    width:  64px;
+    height: 64px;
+    left: 164px;
+    top: 500px;
+}
+
+#socialtext1
+{
+    position: absolute;
+    width: 160px;
+    height: 127px;
+    left: 40px;
+    top: 300px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+    
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);  
+
+}
+
+#text2
+{
+position: absolute;
+width: 204px;
+height: 28px;
+left: 60px;
+top: 35px;
+
+font-family:'Montserrat';
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 39px;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+#mod1DP
+
+{
+    top: 409px;
+    position: absolute;
+    width: 295px;
+    height: 112.5px;
+    left: 60px;
+    
+}
+
+#mod2DP
+
+{
+top: 555px;
+position: absolute;
+width: 299.15px;
+height: 88.04px;
+left: 60px;
+
+}
+
+#mod3DP
+
+{
+    top: 663px;
+    position: absolute;
+    width: 297px;
+    height: 108px;
+    left: 60px;
+    
+}
+
+#text1
+{
+    
+position: absolute;
+width: 279px;
+height: 225px;
+left: 60px;
+top: 128px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 37px;
+display: flex;
+align-items: flex-end;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+}
+
+
+
+
+.logo
+
+{
+    position: absolute;
+    width: 50px;
+    height: 46px;
+    left: 246px;
+    top: 40px;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+
+}
+
+
+
+
+
+
+
+
+/*Deep Waters*/
+
+#backDeep
+{
+    position: absolute;
+    width: 105%;
+    height: 818px;
+    left: -5px;
+    top: 0px;
+
+    
+    
+}
+
+
+/* Devocional */ 
+
+#Devocional
+{
+  background-color: #4D1446;
+ 
+
+}
+
+#backDev
+{
+    position:absolute;
+    width: 100vw;   
+    height:731px;
+    left: 0px;
+    top: 0px;
+}
+
+#TextDev1
+{
+    position: absolute;
+    width: 300px;
+    height: 218px;
+    left: 40px;
+    top: 54%;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+
+
+#textdev2
+{
+position: absolute;
+width: 310px;
+height: 28.25px;
+left: 40px;
+top: 64%;
+
+font-family: 'Audiowide';
+font-style: normal;
+font-weight: normal;
+font-size: 28.2504px;
+line-height: 28px;
+/* identical to box height, or 100% */
+
+
+color: #FFFFFF;
+}
+
+#mackudev
+
+{
+    position: absolute;
+    width: 350px;
+    height:350px;
+    left: 25px;
+    top: 25px;
+      
+}
+
+#line
+{
+
+position: absolute;
+width: 135px;
+height: 5px;
+left: 60px;
+top: 850px;
+}
+
+#DevButton
+
+{
+
+position: absolute;
+width: 330px;
+height: 50px;
+padding: 10px;
+left: 40px;
+top: 90%;
+background-color: white;
+border: none;
+color: #6129a0;
+border-radius: 13px;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+
+
+font-family: 'Poppins';
+font-style: bold;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+text-transform: capitalize;
+
+
+}
+
+#DevButton:hover
+{
+    background-color:rgb(65, 39, 180); 
+    color: rgb(255, 255, 255);
+}
+
+
+#menubar
+{
+    position: fixed;
+}
+
+
+/* Menu */
+
+.conteinermenu
+{
+   position: fixed;
+    left: 0px;
+   top: 0px;
+   width:100vw;
+   height: 100vh;
+
+
+
+}
+
+
+#backMenu
+{
+    position: absolute;
+    width: 100vw;
+    min-width: 358px;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+#PageMenu
+
+{
+    position: absolute;
+    width: 149px;
+    height: 515px;
+    right: 0px;
+    top:25%;
+}
+
+.logoMenu
+{
+  position: absolute;
+    width: 103px;
+    height: 46px;
+    right: 20px;
+    top: 40px;
+        
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #FFFFFF;
+
+}
+
+#FMenu
+{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    margin-right: auto;
+    top: 40px;
+    left: 40px;
+
+    
+
+}
+
+header ul
+{
+
+position: absolute;
+left: 20px;
+top: 150px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+
+
+}
+
+header ul li
+{
+    list-style: none;
+    margin-left: 20px;
+
+}
+
+header ul li a
+{
+   text-decoration: none;
+   padding: 6px 15px;
+   color: #fff;
+   border-radius: 20px; 
+}
+
+
+header ul li a:hover,
+header ul li a.active
+
+
+{
+   background: #fff;
+   color:black;
+    
+}
+
+#op
+{
+    background-color: white;
+}
+
+
+
+
+
+
+/*Sobre Nós */
+
+#SobreNos
+{
+    position: absolute;
+    width: 303px;
+    height: 141px;
+    left: 65px;
+    top: 100px;
+
+}
+
+#TSobre2
+{
+    position: absolute;
+    width: 275px;
+    height: 114px;
+    left: 29px;
+    top: 111px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 95px;
+    line-height: 116px;
+    text-align: center;
+    text-transform: lowercase;
+    
+    color: #000000;
+    
+
+}
+
+#Csobre1
+{
+    position: absolute;
+    width: 307px;
+    height: 223px;
+    left: 60px;
+    top: 240px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: justify;
+    
+    color: #000000;
+    
+
+}
+
+#Vitoresu
+{
+position: absolute;
+width: 301.86px;
+height: 384px;
+left: 60px;
+top: 420px;
+
+}
+
+#SubTSobre1
+{
+    position: absolute;
+width: 180px;
+height: 29px;
+left: 110px;
+top: 815px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+text-align: justify;
+
+color: #000000;
+
+}
+
+#SubTSobre2
+{
+    position: absolute;
+    width: 190px;
+    height: 28px;
+    left: 109px;
+    top: 840px;
+    
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 200;
+font-size: 19px;
+line-height: 29px;
+text-align: center;
+text-transform: lowercase;
+
+}
+
+ 
+
+#titleSobre
+{
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    left: 60px;
+    top: 485px;
+
+}
+
+
+#textS1
+{
+    position: absolute;
+    width: 300px;
+    height: 58px;
+    left: 38px;
+    top: 600px;
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 58px;
+    /* identical to box height */
+    
+    text-align: center;
+    text-transform: uppercase;
+    
+    color: hsl(0, 49%, 61%);
+
+}
+
+#FrameSobre
+{
+ 
+position: absolute;
+width: 100%;
+height: 151px;
+left: 0px;
+top: 897px;
+
+
+}
+
+#Pregacao
+{
+    position: absolute;
+width: 314px;
+height: 170px;
+left: 40px;
+top: 905px;
+}
+
+
+
+
+#textministro1
+{
+    
+position: absolute;
+height: 139px;
+left: 49.72%;
+right:50px;
+top: 1110px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-align: justify;
+
+color: #000000;
+}
+
+#ministro1
+{
+position: absolute;
+width: 151.35px;
+height: 189.03px;
+left: 21px;
+top: 1068px;
+
+}
+
+#ministro2
+{
+    position: absolute;
+    width: 153.59px;
+    height: 213.03px;
+    left: 225px;
+    top: 1330px;
+    
+}
+
+#textministro2
+{
+    position: absolute;
+    height: 139px;
+    width: 165px;
+    left:30px;
+    
+    top:1355px;
+    
+    font-family:'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: justify;
+    
+    color: #000000;
+
+}
+
+    #nomeministro1
+    {
+        position: absolute;
+        height: 24px;
+        left: 50%;
+        right: 18.33%;
+        top: 1255px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 21px;
+        /* or 124% */
+        
+        text-transform: capitalize;
+        
+        color: #0B0B0B;
+
+    }
+
+#nomeministro2
+    {
+        position: absolute;
+        height: 200px;
+        left: 16.94%;
+        right: 47.5%;
+        top: 1415px;
+
+         
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 17px;
+        line-height: 21px;
+
+text-transform: capitalize;
+
+color: #0B0B0B;
+
+    }
+
+
+/*Fire Escola*/
+
+#text3
+{position: absolute;width: 204px;height: 28px;left: 0px;top: 35px;font-family:'Archivo';font-style: normal;font-weight: bold;font-size: 25px;line-height: 39px;text-align: center;text-transform:none;color: #ffffff;}
+
+#firepage
+{
+    height: 900px;
+}
+
+.wrapper1
+{
+  position: absolute;
+  height: 177px;
+  width: 100vw;
+  left: 0px;
+  top: 110px;
+
+}
+
+.wrapper2
+{
+  position: absolute;
+  height: 177px;
+  width: 100vw;
+  left: 0px;
+  top: 310px;
+ 
+  
+}
+
+.wrapper3
+{
+  position: absolute;
+  height: 250px;
+  width: 100vw;
+  left: 0px;
+  top: 510px;
+ 
+  
+}
+
+#apostolostext
+{
+  position: static;
+width: 90px;
+height: 18px;
+left: 0px;
+bottom: 0px;
+font-family: 'Archivo';
+font-style: normal;
+font-weight: 700;
+font-size: 13px;
+line-height: 140%;
+text-align: center;
+color: #ffffff;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 5px 0px;
+letter-spacing: 0.15em;
+}
+
+.tituloEscola
+{
+position: absolute;
+width: 300px;
+height: 22px;
+left: 35px;
+top:-10px;
+
+
+/* Headline/bold 16 */
+letter-spacing: 0.17em;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+color: #ffffff;
+
+}
+
+.cardap
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 177px;
+width: 100vw;
+top: 30px;
+padding: 1rem 1.5rem;
+overflow-x: scroll; 
+overflow-y:hidden; 
+
+}
+
+.cardap1
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 95px;
+height: 125px;
+top: 0px;
+margin-right: 1rem;
+
+
+}
+
+.cardap2
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: 105px;
+height: 125px;
+top: 0px;
+margin-right: 1rem;
+}
+
+.cardSeries
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: top;
+  height: 215px;
+  width: 100vw;
+  padding: 2rem 1.5rem;
+  overflow-x: scroll;
+  overflow-y:hidden;
+}
+
+.cardseries1
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+width: 140px;
+height: 125px;
+top: -30px;
+margin-right: 2rem;
+}
+
+
+#apostolos
+{
+position: relative;
+width: 95px;
+height: 97px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 0px;
+border-radius: 20px;
+}
+
+#Avivalistas
+{
+
+width: 100px;
+height: 100px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 0px;
+border-radius: 50%;
+}
+
+
+#SeriesFire
+{
+position: relative;
+width: 140px;
+height: 140px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 0px;
+}
+
+#Seriestext
+{
+  position: static;
+width: 140px;
+height: 18px;
+left: 0px;
+bottom: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #ffffff;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 5px 0px;
+}
+
+/*Escola Fire - Fundamentos*/
+
+.wrapper4
+{
+  position: absolute;
+  height: 525px;
+  width: 100vw;
+  left: 0px;
+  top: 740px;
+}
+
+.cardFundamentos
+{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+height: 390px;
+width: 100vw;
+top: 30px;
+padding: 1rem 1.5rem;
+overflow-x: scroll; 
+overflow-y:hidden; 
+
+}
+
+.cardFundamentos1
+{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 294px;
+height: 325px;
+top: 0px;
+margin-right: 1rem;
+
+}
+
+#FundamentosFire
+{
+position: relative;
+width: 294px;
+height: 245px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 1;
+margin: 0px 0px;
+}
+
+#Fundatext
+{
+  position: static;
+width: 300px;
+height: 18px;
+left: 0px;
+bottom: 0px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #ffffff;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 5px 0px;
+}
+
+
+
+
+
+
+/*Deep Modulo 1*/
+
+* {box-sizing: border-box}
+        body {font-family: Verdana, sans-serif; margin:0}
+        .mySlides {display: none}
+        img {vertical-align: middle;}
+        
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 1000px;
+          height: 500px;
+          width: 100%;
+          position: absolute;
+          left: 0px;
+          top: 110px;
+        }
+        
+        /* Next & previous buttons */
+        .prev, .next {
+          cursor: pointer;
+          position: absolute;
+          top: 50%;
+          width: auto;
+          padding: 16px;
+          margin-top: -22px;
+          color: white;
+          font-weight: bold;
+          font-size: 18px;
+          transition: 0.6s ease;
+          border-radius: 0 3px 3px 0;
+          user-select: none;
+        }
+        
+        /* Position the "next button" to the right */
+        .next {
+          right: 0;
+          border-radius: 3px 0 0 3px;
+        }
+        
+        /* On hover, add a black background color with a little bit see-through */
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+        
+    
+        /* Fading animation */
+        .fade {
+          -webkit-animation-name: fade;
+          -webkit-animation-duration: 1.5s;
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        
+        @-webkit-keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .prev, .next,.text {font-size: 11px}
+        }
+
+
+#backdeepM1
+{
+    position: absolute;
+    width: 100%;
+    height: 270px;
+    left: 0px;
+    top: 0px;
+
+
+}
+
+#text4
+{
+
+position: absolute;
+left: 13.63%;
+right: 54.01%;
+top: 40px;
+bottom: 97.1%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-transform:capitalize;
+/* or 150% */
+
+color: #FFFFFF;
+}
+
+    #subtext1
+{
+    
+position: absolute;
+width: 303px;
+height: 75px;
+left: 55px;
+top: 81px;
+text-transform:capitalize;
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 50px;
+/* or 62% */
+
+
+color: #FFFFFF;
+
+}
+
+main.Pages
+{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        padding: 32px;
+        margin: 1rem auto;
+        top: 270px;
+        height:max-content ;
+}
+
+main.Pages section.Page
+{
+
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10px;
+    margin-bottom: 32px;
+   
+}
+
+
+.audio
+{
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    
+}
+
+
+
+
+#subtitle1
+{
+   
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    /* identical to box height, or 150% */
+    margin-left: 15px;
+    color: #0044ff;
+
+}
+
+#subtitle2
+{
+   
+    
+    font-family: 'Poppins';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height, or 150% */
+    text-align: center;
+    
+    color: #121212;
+
+}
+
+#subtitle3
+{
+   
+    
+    font-family: 'Bebas Neue';
+    font-style:bold;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform:capitalize;
+    /* identical to box height, or 150% */
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+
+}
+
+#corpotext1
+{
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+letter-spacing: 0.5px;
+color: #121212;
+opacity: 0.7;
+padding: 15px;
+
+}
+
+#corpotext2
+{
+
+
+font-family: 'Poppins';
+font-style: italic;
+font-weight: normal;
+font-size: 14px;
+line-height: 26px;
+/* or 186% */
+letter-spacing: 0.5px;
+color: #000000;
+opacity:30;
+padding: 15px;
+
+}
+
+.line
+{
+width:  250px;
+height: 0px;
+margin-left: 18px;
+border: 0.5px solid #d6d6d6;
+align-items: center;
+
+}
+
+
+
+.playerI
+{
+    position: absolute;
+    top: 613px;
+    left: 0;
+    width: 100%;
+    height: 200PX;
+    border: 0;
+
+}
+
+/*Contato*/
+
+
+.Contato
+{
+
+    background-color: #707AFF ;
+
+}
+
+.conteinerContato
+{
+
+position: absolute;
+left: 0px;
+   top: 0px;
+   width:100vw;
+   height: 750px;
+
+   background: linear-gradient(180deg, #ff868e 0%, #707AFF 99.99%, rgba(255, 255, 255, 0) 100%, #9570FF 100%);
+background-size: cover;
+}
+
+
+
+#ContatoBack
+{
+  position: absolute;
+  top: 100px;
+  left:0px;
+
+
+}
+
+
+#ContButton
+
+{
+
+position: absolute;
+width: 326px;
+height: 50px;
+left: 40px;
+top:90%;
+background-color: #fd6b75;
+border: none;
+color:white;
+border-radius: 13px;
+-webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+text-align: center;
+
+
+}
+
+#ContButton:hover
+{
+    background-color:rgb(65, 39, 180); 
+    color: rgb(255, 255, 255);
+}
+
+#TextCont1
+{
+
+    
+
+    position: absolute;
+    width: 250px;
+    height: 218px;
+    left: 60px;
+    top: 50%;
+    color: white;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+    
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+
+}
+
+#TitleCont
+{
+    position: absolute;
+    width: 250px;
+    height: 28px;
+    left: 60px;
+    top: 55%;
+    
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 39px;
+    text-align: left;
+  
+    color: white;
+
+}
+
+
+
+@media only screen and (max-width: 370px) 
+
+{
+    /* For mobile phones: */
+   
+    #nomeministro1
+    {
+        top: 1300px;
+           
+    }
+
+    #DevButton
+
+    {
+     width: 290px;
+     top: 590px;
+     
+    }
+    
+    #mackudev
+
+{
+    
+    left: 7px;
+    top: 15px;
+      
+}
+
+.cardEscola1
+
+{
+  left: 35px;
+}
+
+.card1 {
+   
+    left: 40px;
+
+}
+
+
+#Homeprog2
+
+{
+left: 40px;
+}
+
+#backDev
+{
+    height:660px;
+}
+
+#ContButton
+
+{
+    top: 85%;
+width: 290px;
+}
+
+#Vitoresu
+{
+left: 36.84px;
+}
+
+#Csobre1
+{
+    left: 25px;
+}
+
+#SobreNos
+{
+    left: 35px;
+}
+
+#Vitoresu
+{
+left: 25px;
+}
+
+
+#SubTSobre1
+{
+left: 90px;
+}
+#SubTSobre2
+{
+left: 90px;
+}
+
+#textministro1
+{
+    
+    width: 160px;
+    height: 213.03px;
+    left: 180px;
+    text-align: left ;
+
+}
+
+#textministro2
+{
+    
+    width: 150px;
+    height: 250px;
+    left: 25px;
+    text-align:justify;
+    top: 1330px;
+}
+
+
+
+    #nomeministro1
+    {
+        
+        top: 1250px;
+    }
+
+    #nomeministro2
+    {
+        height: 50px;
+        top:1440px;
+    }
+
+    #ministro2
+    {
+  
+    left: 185px;
+    top: 1300px;
+    
+    
+    }
+
+    #MapButton
+    {
+        position: absolute;
+        width: 250px;
+        height: 50px;
+        left: 50px;
+        top:1500px;
+    }
+
+
+
+
+
+
+
+}
+
+/*Animação*/
+
+[data-anime] {
+  opacity: 0;
+  transition: 1s;
+}
+
+[data-anime="left"] {
+  transform: translate3d(-50px, 0, 0);
+}
+
+[data-anime="right"] {
+  transform: translate3d(20px, 0, 0);
+}
+
+[data-anime="top"] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px);
+}
+
+
+/*Button Map*/
+
+  .slider {
+    position: absolute;
+    top: -8px;
+    left: -10px;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/home/google-maps.png);
+    width: 64px;
+    height: 64px;
+  
+  }
+  
+.Gmaps
+
+{
+    position: absolute;
+    width: 255px;
+    height: 49px;
+    left: 80px;
+    top: 390px;
+    
+
+}
+
+.textbtn1
+{
+font-family: 'montserrat';
+font-size: 18px;
+  position:absolute;
+  z-index:1;
+  top: 18px;
+  left: 100px;
+  color: #FFFFFF;
+}
+
+.btnmap1{
+ color: white;
+  position: absolute;
+width: 250px;
+height: 49px;
+border-width: 3px;
+border-radius: 10px;
+background-color: transparent;
+border-style: solid;
+}
+
+.btnmap1:hover
+{
+background-color: rgb(255, 204, 0) ;
+border-style:none;
+  
+  
+}
+
+.secMap
+{
+  position: absolute;
+  top: 1400px;
+  left: 0px;
+  width: 100vw;
+ height:   431px;
+}
+
+#Homemap1{
+  position: relative;
+    top: 0px;
+  left: 0px;
+  width: 100vw;
+ height:   431px;
+}
+
+/*Teens*/
+
+
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+    font-family: "DM Sans", sans-serif;
+    transition: background 0.4s ease-in;
+    background-color: #c394f8;
+  }
+
+
+  body.blue {
+    background-color: #00a2ff;
+  }
+
+
+
+.logoConteinerTeens
+{
+    position: absolute;
+    width: 100vw;
+    height: 514px;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    border-radius: none;
+}
+
+#HeadeBackLogo
+{
+    position: absolute;
+    width: 100vw;
+    height:515px;
+    left: 0px;
+    top: 0px;
+    border-radius: none;
+}
+
+#logoTeens
+{
+    position: absolute;
+    width: 308px;
+    height: 286px;
+    top: 71px;
+  
+}
+
+.SeriesConteinerTeens
+{
+position: absolute;
+width: 100vw;
+height: 504px;
+left: 0px;
+top: 540px;
+
+}
+
+#backseries
+{
+    
+position: absolute;
+width: 100vw;
+height: 671px;
+left: 0px;
+top: -100px;
+z-index: 1;
+
+}
+
+#seriestitle
+{
+position: absolute;
+width: 252px;
+height: 66px;
+left: 100px;
+top: 10px;
+z-index: 1;
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 66px;
+/* identical to box height */
+text-shadow: rgba(0, 0, 0, 0.1);
+text-transform: uppercase;
+
+color: #ffffff;
+}
+
+
+
+
+.TestConteinerTeens
+{
+    position: absolute;
+    width: 100vw;
+    height: 800px;
+    left: 0px;
+    top: 1125px;
+    background-color:  #00CCCC;
+}
+
+#backTestTeens
+{
+    position: absolute;
+    width: 100vw;
+    height: 440px;
+    left: 0px;
+    top: 190px;
+    
+}
+
+#testTeens
+{
+    position: absolute;
+    width: 306px;
+    height: 225px;
+    left: 50px;
+    top: 150px;
+}
+
+    #testTitle
+    {
+        position: absolute;
+        width: 224px;
+        height: 47px;
+        left: 90px;
+        top: 60px;
+        z-index: 1;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 60px;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+    }
+
+    .EncontroConteinerTeens
+    {
+        position: absolute;
+        width: 100vw;
+        height: 470px;
+        left: 0px;
+        top: 1700px;
+        z-index: 1;
+       padding: 150px;
+        
+    }
+
+    #EncontroTeensBack
+    {
+        position: absolute;
+        width: 100vw;
+        height: 120%;
+        left: 0px;
+        top: 0px;
+    }
+    #EncontroTitle
+    {
+        position: absolute;
+        width: 261px;
+        height: 60px;
+        left: 25px;
+        top: 80px;
+        z-index: 1;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 50px;
+        line-height: 60px;
+        /* identical to box height */
+        
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+        
+    }
+
+    #astroTeens
+    {
+        position: absolute;
+        width: 183px;
+        height: 183px;
+        left: 2px;
+        top: 160px;
+    }
+
+    #subtitleEncontro
+    {
+        position: absolute;
+        width: 137px;
+        height: 31px;
+        left: 25px;
+        top: 130px;
+        z-index: 1;
+        font-family: 'Bebas Neue';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+    }
+
+    #corpotitleEncontro
+    {
+        position: absolute;
+        width: 169px;
+        height: 97px;
+        right: 10px;
+        top: 220px;
+        z-index: 1;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+        text-transform: capitalize;
+        
+        color: #FFFFFF;
+    }
+
+    .roscktbtn
+    {
+        position: absolute;
+        width: 64px;
+        height: 67px;
+        left: -15px;
+        top: -15px;
+        z-index: 1;
+        background: url(../img/Teens/rocket.png);
+        border-radius: 80px;
+        box-shadow: #000000;
+
+    }
+
+    #encontroBnt
+    {
+        position: absolute;
+        width: 198px;
+        height: 44px;
+        left: 100px;
+        top: 400px;
+        
+        background: rgba(0, 0, 0, 0.1);
+        border-radius: 21px;
+        border-style: none;
+    }
+
+    #btntextEn
+    {
+        position: absolute;
+        width: 123px;
+        height: 21px;
+        left: 70px;
+        top: 29px;
+        
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 18px;
+        text-transform: capitalize;
+        
+        color: #FFFFFF;
+    }
+
+    .SocialConteinerTeens
+    {
+        position: absolute;
+        width: 100vw;
+        height: 370px;
+        left: 0px;
+        top: 2150px;
+        background: rgba(42, 0, 63, 1);
+        z-index: 0;
+    }
+
+    #SocialTitle
+    {
+           /* Confira mais nas nossas redes sociais */
+
+           position: absolute;
+           width: 154px;
+           height: 130px;
+           right: 20px;
+           top: 150px;
+           z-index: 1;
+           font-family: 'Bebas Neue';
+           font-style: normal;
+           font-weight: normal;
+           font-size: 35px;
+           line-height: 42px;
+           text-align: center;
+           text-transform: capitalize;
+           
+           color: #FFFFFF;
+           
+           text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+ 
+    }
+
+    #FacebookTeens
+    {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        left: 260px;
+        top: 300px;
+        filter: drop-shadow(0px 12px 24px rgba(0, 0, 0, 0.1));
+    }
+
+    #InstagramTeens
+    {
+        position: absolute;
+        width: 48px;
+        height: 48px;
+        left: 200px;
+        top: 300px;
+        filter: drop-shadow(0px 12px 24px rgba(0, 0, 0, 0.1));
+    }
+
+    #rocketsocial
+    
+{
+    
+    position: absolute;
+    width: 192px;
+    height: 144px;
+    left: 0px;
+    top: 133px;
+}
+
+/*Cards Testemunhos*/
+
+.cardsconteiner
+{
+    position: absolute;
+    width: 300px;
+    height: 600px;
+}
+
+.testcard1 
+{
+position: absolute;
+width: 300px;
+height: 110px;
+left: 48px;
+top: 170px;
+
+background: #ffffff;
+border-radius: 10px;
+}
+
+.testcard2 
+{
+position: absolute;
+width: 300px;
+height: 210px;
+left: 48px;
+top: 380px;
+
+background: #ffffff;
+border-radius: 10px;
+}
+
+.testcard3
+{
+position: absolute;
+width: 300px;
+height: 110px;
+left: 48px;
+top: 430px;
+z-index: 1;
+background: #ffffff;
+border-radius: 10px;
+}
+
+.fotocard
+{
+ position:absolute;
+ height: 60px;
+  width: 60px;
+  top:26px;
+  left:15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.namecard
+{
+  position: absolute;
+width: 200px;
+height: 18px;
+left: 90px;
+top: 25px;
+
+font-family: 'Bebas Neue';
+font-style: normal;
+font-weight: normal;
+font-size: 25px;
+line-height: 18px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #000000;
+
+
+}
+
+.tetemunho
+{
+  
+position: absolute;
+width: 190px;
+height: 42px;
+left: 90px;
+top: 50px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+text-transform:lowercase;
+
+color: #000000;
+
+}
+
+.fotocard img
+{
+ position:absolute;
+ height: 60px;
+  width: 60px;
+  top:0px;
+  left:0px;
+}
+
+/*carrosel*/
+
+.card {
+    position: absolute;
+    width: 60%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+  }
+  
+  .Conteinerblog {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    max-width: 800px;
+    max-height: 600px;
+    height: 100%;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+ 
+  }
+  
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    margin-bottom: 20px;
+  }
+  
+  #blog {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  
+  #item-1:checked ~ .cards #song-3, #item-2:checked ~ .cards #song-1, #item-3:checked ~ .cards #song-2 {
+    transform: translatex(-40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+
+  }
+  
+  #item-1:checked ~ .cards #song-2, #item-2:checked ~ .cards #song-3, #item-3:checked ~ .cards #song-1 {
+    transform: translatex(40%) scale(0.8);
+    opacity: 0.4;
+    z-index: 0;
+  }
+  
+  #item-1:checked ~ .cards #song-1, #item-2:checked ~ .cards #song-2, #item-3:checked ~ .cards #song-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+  }
+  #item-1:checked ~ .cards #song-1 img, #item-2:checked ~ .cards #song-2 img, #item-3:checked ~ .cards #song-3 img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
+
+
+  .upper-part {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    height: 36px;
+    overflow: hidden;
+  }
+  
+
+  input[type=radio] {
+    display: none;
+}
+
+
+
+/*CardRow1*/
+
+.card-top1 {
+  background-image: url(../img/Teens/mari.png);
+  background-repeat: no-repeat;
+  image-resolution:calc(100%);
+  background-position: center;
+  padding: 1em;
+  border-top-left-radius: 0.75em;
+  border-top-right-radius: 0.75em;
+}
+
+.cardTest1 {
+    position: relative;
+    top: 20vh;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.75em;
+    padding: 0;
+    left: 60px;
+    top: 200px;
+    transition: all 0.2s ease-in-out;
+    height: 100px;
+    width: 200px;
+  }
+  .cardTest1:nth-child(even) {
+    margin: 0 1em;
+  }
+
+  .card-top1 .card-img1 {
+    display: block;
+    left: 0;
+    top: 0px;
+    height: 12em;
+    width: 13em;
+    border-radius: 10%;
+    visibility: hidden;
+  }
+
+  .card-middle1 {
+    display: none;
+    background: #efefef;
+    padding: 2em 1em 1em 1em;
+  }
+  .card-middle1 .more1 {
+    font-family: Open Sans;
+    font-weight: 400;
+  }
+
+  .circle-button1 {
+    position: absolute;
+    top: 200px;
+    left: -25px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5em;
+    color: #fff;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.275);
+    outline: none;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  .circle-button1 .close1 {
+    transition: transform 400ms ease;
+  }
+  .circle-button1:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.275);
+  }
+  
+  .closeRotate1 {
+    transform: rotate(45deg);
+  }
+  
+ 
+
+  /*CardRow2*/
+
+  .row2
+  {
+      position: absolute;
+      left: 230px;
+      height: 600px;
+      width: 300px;
+      top: 0px;
+      z-index: 1;
+  }
+
+
+  .cardTest2 {
+    position: relative;
+    top: 20vh;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.75em;
+    padding: 0;
+    left: 60px;
+    top: 200px;
+    transition: all 0.2s ease-in-out;
+    height: 100px;
+    width: 200px;
+  }
+  .cardTest2:nth-child(even) {
+    margin: 0 1em;
+  }
+  
+
+  .card-top2 {
+    background-image: url(../img/Teens/LanaG.png);
+    background-repeat: no-repeat;
+    image-resolution:calc(100%);
+    background-position: center;
+    padding: 1em;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+  }
+
+ 
+
+  .card-top2 .card-img2 {
+    display: block;
+    left: 0;
+    top: 0px;
+    height: 12em;
+    width: 13em;
+    border-radius: 10%;
+    visibility: hidden;
+  }
+  
+  
+  
+  .card-bottom {
+    background: #f7f7f7;
+    padding: 1.75em 1em 1em 1em;
+    border-bottom-left-radius: 0.75em;
+    border-bottom-right-radius: 0.75em;
+  }
+  .card-bottom .card-title {
+  
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+
+  }
+  
+ 
+
+  .circle-button2 {
+    position: absolute;
+    top: 200px;
+    left: -25px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5em;
+    color: #fff;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.275);
+    outline: none;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  .circle-button2 .close2 {
+    transition: transform 400ms ease;
+  }
+  .circle-button2:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.275);
+  }
+  
+  .closeRotate2 {
+    transform: rotate(45deg);
+  }
+  
+  
+
+  .card-middle2 {
+    display: none;
+    background: #efefef;
+    padding: 2em 1em 1em 1em;
+  }
+  .card-middle2 .more2 {
+    font-family: Open Sans;
+    font-weight: 400;
+  }
+
+
+
+  /*Card Row3*/
+
+
+  .row3
+  {
+    position: absolute;
+    left: 460px;
+    height: 600px;
+    width: 300px;
+    top: 0px;
+    z-index: 1;
+  }
+
+
+  .cardTest3 {
+    position: relative;
+    top: 20vh;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 0.75em;
+    padding: 0;
+    left: 60px;
+    top: 200px;
+    transition: all 0.2s ease-in-out;
+    height: 100px;
+    width: 200px;
+  }
+  .cardTest3:nth-child(even) {
+    margin: 0 1em;
+  }
+  
+
+  .card-top3 {
+    background-image: url(../img/Teens/Larissa.png);
+    background-repeat: no-repeat;
+    image-resolution:calc(100%);
+    background-position: center;
+    padding: 1em;
+    border-top-left-radius: 0.75em;
+    border-top-right-radius: 0.75em;
+  }
+
+ 
+
+  .card-top3 .card-img3 {
+    display: block;
+    left: 0;
+    top: 0px;
+    height: 12em;
+    width: 13em;
+    border-radius: 10%;
+    visibility: hidden;
+  }
+  
+
+
+  .circle-button3 {
+    position: absolute;
+    top: 200px;
+    left: -25px;
+    width: 45px;
+    height: 45px;
+    font-size: 1.5em;
+    color: #fff;
+    background: #fff;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.275);
+    outline: none;
+    cursor: pointer;
+    transition: all 300ms ease;
+  }
+  .circle-button3 .close3 {
+    transition: transform 400ms ease;
+  }
+  .circle-button3:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.275);
+  }
+  
+  .closeRotate3 {
+    transform: rotate(45deg);
+  }
+  
+  
+
+  .card-middle3 {
+    display: none;
+    background: #efefef;
+    padding: 2em 1em 1em 1em;
+  }
+  .card-middle3 .more3 {
+    font-family: Open Sans;
+    font-weight: 400;
+  }
+
+
+/*Fontes dos cardes dos testemunhos*/
+
+
+#cardstexts
+{
+  font-family: 'Montserrat';
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 17px;
+text-transform:initial;
+
+color: #000000;
+
+
+} 
+
+
+  /*Scoll horizontal*/
+
+  .scollConteiner
+  {
+      position: relative;
+      top: -40px;
+      left: 0px;
+      height: 750px;
+      width: 100%;
+      overflow-x: scroll; 
+    
+      
+    
+  }
+
+  
+  .CardsTestConteinerTeens
+{
+    position: absolute;
+    width: 100vw;
+    height: 800px;
+    left: 0px;
+    top: 1125px;
+    z-index: 1;
+}
+
+#divTest
+{
+  position: absolute;
+  top: -80px;
+  width: 100vw;
+  height: 150px;
+  z-index: 1;
+
+}
+
+.menusection {
+
+  font-family: 'Open Sans', Verdana, Geneva, Tahoma, sans-serif;
+  top: 0px;
+  left: 0px;
+  height: 150px;
+  width: 100vw;
+  z-index: 1;
+}
+
+.menusection, .nav, .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  padding: 10px;
+  transition: 0.5s;
+  border-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 8px 15px rgba(0,0,0,.2);
+  top: 25px;
+  right: 30px;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  overflow: hidden;
+  transition: 0.5s;
+  top: 0px;
+}
+
+.nav input:checked ~ .menu {
+  width: 150px;
+}
+
+.menu li {
+  list-style: none;
+  margin: 10px 10px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #666;
+  text-transform: uppercase;
+  font-weight: 600;
+  transition: 0.5s;
+}
+
+.menu li a:hover {
+  color: #161919;
+}
+
+.nav input {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+.nav span {
+  position: absolute;
+  left: 18px;
+  width: 30px;
+  height: 4px;
+  border-radius: 50px;
+  background-color: #666;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.nav input:checked ~ span {
+  background-color: #74b9f9;
+}
+
+.nav span:nth-child(2) {
+  transform: translateY(-8px);
+}
+
+.nav input:checked ~ span:nth-child(2) {
+  transform: translateY(0) rotate(-45deg);
+}
+.nav span:nth-child(3) {
+  transform: translateY(8px);
+}
+
+.nav input:checked ~ span:nth-child(3) {
+  transform: translateY(0) rotate(45deg);
+}
